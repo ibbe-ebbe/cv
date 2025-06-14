@@ -1,0 +1,438 @@
+<!DOCTYPE html>
+<!-- saved from url=(0047)file:///C:/Users/P083/Downloads/cv_with_pp.html -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Ibrahim Eehaab – Curriculum Vitae</title>
+  <style>
+    /* Base Reset */
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: 'Georgia', serif;
+      background: #fff;
+      color: #111;
+      margin: 0;
+      padding: 30px 15px;
+      line-height: 1.5;
+      font-size: 16px;
+      transition: background-color 0.3s ease, color 0.3s ease;
+    }
+
+    .dark-mode {
+      background: #111;
+      color: #eee;
+    }
+
+    .dark-mode header h1,
+    .dark-mode header p,
+    .dark-mode h2 {
+      color: #eee;
+    }
+
+    .container {
+      max-width: 720px;
+      margin: auto;
+      padding: 0 20px;
+    }
+
+    header {
+      text-align: center;
+      margin-bottom: 50px;
+      border-bottom: 2px solid #000;
+      padding-bottom: 15px;
+      transition: border-color 0.3s ease;
+    }
+
+    .dark-mode header {
+      border-color: #eee;
+    }
+
+    header h1 {
+      font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+      font-weight: 700;
+      font-size: 3rem;
+      letter-spacing: 4px;
+      margin: 0 0 5px;
+      color: #000;
+      transition: color 0.3s ease;
+    }
+
+    header p {
+      font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+      font-weight: 300;
+      font-size: 1.1rem;
+      color: #444;
+      margin: 0;
+      letter-spacing: 1.5px;
+      text-transform: uppercase;
+      transition: color 0.3s ease;
+    }
+
+    section {
+      margin-bottom: 40px;
+    }
+
+    h2 {
+      font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+      font-weight: 600;
+      font-size: 1.4rem;
+      margin-bottom: 12px;
+      letter-spacing: 2px;
+      border-bottom: 1px solid #222;
+      padding-bottom: 5px;
+      color: #222;
+      transition: color 0.3s ease, border-color 0.3s ease;
+    }
+
+    .dark-mode h2 {
+      border-color: #eee;
+    }
+
+    p, li {
+      font-family: 'Georgia', serif;
+      font-weight: 400;
+      font-size: 1rem;
+      color: #222;
+      transition: color 0.3s ease;
+    }
+
+    .dark-mode p,
+    .dark-mode li {
+      color: #ddd;
+    }
+
+    ul.skills-list {
+      list-style: none;
+      padding-left: 0;
+      columns: 2;
+      column-gap: 40px;
+      margin: 0;
+    }
+
+    ul.skills-list li {
+      margin-bottom: 10px;
+      padding-left: 1em;
+      position: relative;
+    }
+
+    ul.skills-list li::before {
+      content: "•";
+      position: absolute;
+      left: 0;
+      color: #111;
+      font-weight: 700;
+      transition: color 0.3s ease;
+    }
+
+    .dark-mode ul.skills-list li::before {
+      color: #eee;
+    }
+
+    .entry {
+      margin-bottom: 18px;
+    }
+
+    .entry h3 {
+      font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+      font-weight: 600;
+      font-size: 1.1rem;
+      margin: 0 0 3px 0;
+      color: #000;
+      transition: color 0.3s ease;
+    }
+
+    .dark-mode .entry h3 {
+      color: #eee;
+    }
+
+    .entry p {
+      margin: 0;
+      font-style: italic;
+      color: #555;
+      font-size: 0.95rem;
+      transition: color 0.3s ease;
+    }
+
+    .dark-mode .entry p {
+      color: #ccc;
+    }
+
+    a {
+      color: #000;
+      text-decoration: none;
+      border-bottom: 1px dotted #555;
+      transition: color 0.3s ease;
+    }
+
+    a:hover {
+      border-bottom-style: solid;
+    }
+
+    .dark-mode a {
+      color: #ddd;
+    }
+
+    footer {
+      text-align: center;
+      font-family: 'Georgia', serif;
+      font-size: 0.9rem;
+      color: #444;
+      margin-top: 50px;
+      letter-spacing: 1.2px;
+      transition: color 0.3s ease;
+    }
+
+    .dark-mode footer {
+      color: #ccc;
+    }
+
+    /* Responsive adjustments */
+    @media (max-width: 600px) {
+      body {
+        font-size: 15px;
+        padding: 20px 10px;
+      }
+
+      ul.skills-list {
+        columns: 1;
+      }
+    }
+
+    /* Print styles */
+    @media print {
+      body {
+        margin: 0;
+        padding: 0;
+        font-size: 12pt;
+        background: #fff !important;
+        color: #000 !important;
+      }
+
+      .container {
+        max-width: 100%;
+        padding: 0 15px;
+      }
+
+      header {
+        margin-bottom: 30px;
+        border-bottom-width: 1px;
+      }
+
+      section {
+        page-break-inside: avoid;
+        margin-bottom: 25px;
+      }
+
+      a {
+        text-decoration: none;
+        border-bottom: none;
+        color: black;
+      }
+
+      .no-print {
+        display: none !important;
+      }
+    }
+
+    /* Buttons container */
+    .button-container {
+      max-width: 720px;
+      margin: 0 auto 25px;
+      padding: 0 20px;
+      text-align: right;
+    }
+
+    button {
+      background: none;
+      border: 2px solid #000;
+      color: #000;
+      font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+      font-weight: 600;
+      font-size: 1rem;
+      padding: 8px 15px;
+      margin-left: 10px;
+      cursor: pointer;
+      border-radius: 4px;
+      transition: background-color 0.25s ease, color 0.25s ease, border-color 0.25s ease;
+    }
+
+    button:hover {
+      background-color: #000;
+      color: #fff;
+    }
+
+    .dark-mode button {
+      border-color: #eee;
+      color: #eee;
+    }
+
+    .dark-mode button:hover {
+      background-color: #eee;
+      color: #000;
+    }
+  </style>
+</head>
+<body contenteditable="true">
+  <div class="button-container no-print"><br></div>
+
+  <div class="container" id="cvContent">
+    <header>
+      <img src="./Ibrahim Eehaab – Curriculum Vitae_files/pp1.jpg" alt="Profile Picture" style="width:120px; height:150px; object-fit:cover; border-radius:10px; margin-bottom:10px;">
+
+<h1>Ibrahim Eehaab</h1>
+      <p>IT Professional | Graphic Designer | Web Developer</p>
+    </header>
+
+    <section id="contact">
+      <h2>Contact</h2>
+      <p>Address: Rosewood, H.Dh Kulhudhuffushi<br>
+         Phone: 9735659<br>
+         Email: <a href="mailto:i@eehaab.com">i@eehaab.com</a>
+      </p>
+    </section>
+
+    <section id="summary">
+      <h2>Professional Summary</h2>
+      <p>Reliable IT professional with extensive experience in system administration, graphic design, and web development. Skilled at delivering creative solutions and technical support in dynamic environments.</p>
+    </section>
+
+    <section id="skills">
+      <h2>Skills</h2>
+      <ul class="skills-list">
+        <li>HTML, CSS &amp; JavaScript</li>
+        <li>Graphic Design &amp; Adobe Photoshop</li>
+        <li>IT Support &amp; Networking</li>
+        <li>System Administration</li>
+        <li>WordPress &amp; CMS Management</li>
+        <li>Photography &amp; Image Editing</li>
+        <li>Team Collaboration &amp; Communication</li>
+      </ul>
+    </section>
+
+    <section id="experience">
+      <h2>Experience</h2>
+      <div class="entry">
+        <h3>IT Officer – Kulhudhuffushi Port</h3>
+        <p>2023 – Present</p>
+      </div>
+      <div class="entry">
+        <h3>IT Technician – Ministry of Higher Education</h3>
+        <p>2017 – 2023</p>
+      </div>
+      <div class="entry">
+        <h3>Freelance Graphic Designer</h3>
+        <p>2014 – Present</p>
+      </div>
+      <div class="entry">
+        <h3>IT Officer – IUM Holdings</h3>
+        <p>2022 – 2023</p>
+      </div>
+      <div class="entry">
+        <h3>IT Officer (Part-Time) – Burunu Works Investment</h3>
+        <p>2015 – 2017</p>
+      </div>
+      <div class="entry">
+        <h3>Photographer &amp; Printer – Theyri Photo</h3>
+        <p>2012 – 2013</p>
+      </div>
+    </section>
+
+    <section id="education">
+      <h2>Education</h2>
+      <div class="entry">
+        <h3>Bachelor of IT (Hons) – Open University Malaysia</h3>
+        <p>2014 – 2017</p>
+      </div>
+      <div class="entry">
+        <h3>Diploma in IT – International Business School</h3>
+        <p>2011 – 2013</p>
+      </div>
+      <div class="entry">
+        <h3>O-Level – Jalaluddin School</h3>
+        <p>2010</p>
+      </div>
+      <div class="entry">
+        <h3>Cisco Networking Certification – Cisco Networking Academy</h3>
+        <p>2022</p>
+      </div>
+    </section>
+
+    <section id="trainings">
+      <h2>Trainings</h2>
+      <div class="entry">
+        <h3>Prevention of Sexual Harassment and Abuse of Authority by UNICEF</h3>
+        <p>13 November 2021</p>
+      </div>
+      <div class="entry">
+        <h3>Prevention of Sexual Exploitation and Abuse by UNICEF</h3>
+        <p>14 November 2021</p>
+      </div>
+      <div class="entry">
+        <h3>Tailor-Made Customer Service Training</h3>
+        <p>30 Oct – 2 Nov 2017</p>
+      </div>
+      <div class="entry">
+        <h3>Entrepreneurship in TVET</h3>
+        <p>10 April 2018</p>
+      </div>
+      <div class="entry">
+        <h3>Migrant Short Film Series</h3>
+        <p>12–15 November 2019</p>
+      </div>
+      <div class="entry">
+        <h3>Miyaheli Social Innovation Camp (Winner)</h3>
+        <p>2019 &amp; 2021</p>
+      </div>
+    </section>
+
+    <section id="political">
+      <h2>Political Involvement</h2>
+      <p>Member of the People's National Congress</p>
+      <p>Currently serving as Steering Committee Member of Kulhudhuffushi South Ward</p>
+    </section>
+
+    <footer>
+      © 2025 Ibrahim Eehaab
+    </footer>
+  </div>
+
+  <!-- Include html2pdf.js library from CDN -->
+  <script src="./Ibrahim Eehaab – Curriculum Vitae_files/html2pdf.bundle.min.js.download"></script>
+  <script>
+    const toggleBtn = document.getElementById('toggleModeBtn');
+    const downloadBtn = document.getElementById('downloadPdfBtn');
+    const body = document.body;
+
+    toggleBtn.addEventListener('click', () => {
+      body.classList.toggle('dark-mode');
+      if(body.classList.contains('dark-mode')) {
+        toggleBtn.textContent = 'Switch to Light Mode';
+      } else {
+        toggleBtn.textContent = 'Switch to Dark Mode';
+      }
+    });
+
+    downloadBtn.addEventListener('click', () => {
+      // Options for pdf
+      const element = document.getElementById('cvContent');
+      const opt = {
+        margin:       0.5,
+        filename:     'Ibrahim_Eehaab_CV.pdf',
+        image:        { type: 'jpeg', quality: 0.98 },
+        html2canvas:  { scale: 2 },
+        jsPDF:        { unit: 'in', format: 'a4', orientation: 'portrait' }
+      };
+
+      // Temporarily hide buttons from PDF
+      document.querySelector('.button-container').style.display = 'none';
+
+      html2pdf().set(opt).from(element).save().then(() => {
+        document.querySelector('.button-container').style.display = 'block';
+      });
+    });
+  </script>
+
+</body></html>
